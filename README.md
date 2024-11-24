@@ -1,7 +1,7 @@
 # 🗣️ Voice Sentiment Analysis
 #### Final Project for DSBA 6156: Applied Machine Learning  
 ##### Team: Eric Phann & Jessica Ricks  
-Experiment analyzing various approaches to voice sentiment analysis.  
+Experiment analyzing various approaches to voice sentiment analysis. We will be using this [Kaggle dataset](https://www.kaggle.com/datasets/imsparsh/audio-speech-sentiment) to test our approaches. The goal is to wrap these three approaches in a Streamlit app where users can provide live audio inputs. 
 
 ## 📝 Approach #1: Speech-to-Text / Transcription  
 Transcribing the audio sample to text, embedding the text, and training a model to classify sentiment.  
