@@ -4,7 +4,7 @@
 Experiment analyzing various approaches to voice sentiment analysis. We will be using this [Kaggle dataset](https://www.kaggle.com/datasets/imsparsh/audio-speech-sentiment) to test our approaches. The goal is to wrap these three approaches in a Streamlit app where users can provide live audio inputs. 
 
 ## 📝 Approach #1: Speech-to-Text / Transcription  
-Transcribing the audio sample to text, embedding the text, and training a model to classify sentiment.  
+Transcribing the audio sample to text and running it through a sentiment analysis model.  
 
 __Pre-trained Wav2Vec Model__: [Wav2Vec2-Large-960h](https://huggingface.co/facebook/wav2vec2-large-960h)  
 Wav2Vec is trained using connectionist temporal classification and its outputs must be decoding using a CTC tokenizer.  
