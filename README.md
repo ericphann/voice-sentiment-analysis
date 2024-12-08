@@ -25,6 +25,8 @@ Extract features from the audio sample using Mel-Frequency Cepstral coefficients
 Using OpenAI's Whisper to transcribe text and prompt ChatGPT to classify sentiment.
 Transcribing the audio files into text and running the text through ChatGPT to classify whether the text is positive/negative/neutral.
 
+Link to Streamlit App: http://localhost:8501/
+
 ## Evaluation  
 
 ## Conclusion
