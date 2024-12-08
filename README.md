@@ -22,7 +22,7 @@ We then reclassify emotions from the RAVDESS dataset to develop our ground truth
 ## 🔉 Approach #2: Mel-Frequency Cepstral Coefficients  
 Extract features from the audio sample using Mel-Frequency Cepstral coefficients and training a model to classify sentiment.
 
-## ✨ Approach #3: Whisper by OpenAI  
+## ✨ Approach #3: Whisper & ChatGPT by OpenAI  
 Using OpenAI's Whisper to transcribe text and prompt ChatGPT to classify sentiment.
 Transcribing the audio files into text and running the text through ChatGPT to classify whether the text is positive/negative/neutral.
 
