@@ -20,7 +20,7 @@ We use the [DistilBERT base uncased finetuned SST-2](https://huggingface.co/dist
 We then reclassify emotions from the RAVDESS dataset to develop our ground truths and align to our desired classes of positive, neutral, and negative. Then we evaluate the results of both models.
 
 ## 🔉 Approach #2: Mel-Frequency Cepstral Coefficients  
-Extract features from the audio sample using Mel-Frequency Cepstral coefficients and training a model to classify sentiment.
+Extract features from the audio sample using Mel-Frequency Cepstral coefficients and train a neural network to classify sentiment.
 
 ## ✨ Approach #3: Whisper & ChatGPT by OpenAI  
 Using OpenAI's Whisper to transcribe text and prompt ChatGPT to classify sentiment.
