@@ -8,7 +8,7 @@ See our [Streamlit App]() and [Final Presentation]() to interact with our projec
 If you'd like to learn a bit more about each of the approaches, then we recommend walking through each of the provided notebooks.  
 
 ## 📝 Approach #1: Transcription Sentiment Analysis
-Transcribing the audio sample to raw text and running it through the NLTK Sentiment Analyzer. Additionally, embedding the raw text and classifying the embeddings using Hugging Face sentiment analysis pipeline.   
+Transcribing the audio sample to raw text and running it through sentiment analysis model. Additionally, embedding the raw text and then running sentiment analysis on the embeddings.
 
 We use the pre-trained Wav2Vec Model [Wav2Vec2-Large-960h](https://huggingface.co/facebook/wav2vec2-large-960h) for transcription.  
 _Wav2Vec is trained using connectionist temporal classification and its outputs must be decoded using a CTC tokenizer._  
