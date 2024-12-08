@@ -5,9 +5,10 @@ Experiment analyzing various approaches to voice sentiment analysis. We will be 
 
 ## ✨ Getting Started  
 See our [Streamlit App]() and [Final Presentation]() to interact with our project and see a live-demo, respectively.  
-If you'd like to learn a bit more about each of the approaches, then we recommend walking through each of the provided notebooks.
-## 📝 Approach #1: Speech-to-Text / Transcription  
-Transcribing the audio sample to text and running it through a sentiment analysis model for raw text and embeddings.  
+If you'd like to learn a bit more about each of the approaches, then we recommend walking through each of the provided notebooks.  
+
+## 📝 Approach #1: Transcription Sentiment Analysis
+Transcribing the audio sample to raw text and running it through the NLTK Sentiment Analyzer. Additionally, embedding the raw text and classifying the embeddings using Hugging Face sentiment analysis pipeline.   
 
 We use the pre-trained Wav2Vec Model [Wav2Vec2-Large-960h](https://huggingface.co/facebook/wav2vec2-large-960h) for transcription.  
 _Wav2Vec is trained using connectionist temporal classification and its outputs must be decoded using a CTC tokenizer._  
@@ -16,7 +17,7 @@ _Here is a great explanation of [sequence modeling using CTC](https://distill.pu
 We use NLTK's [Sentiment Intensity Analyzer](https://www.nltk.org/api/nltk.sentiment.vader.html) to classify the raw-text transcriptions as positive, neutral, or negative.  
 We use the [DistilBERT base uncased finetuned SST-2](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) model with the HF sentiment analysis pipeline to classify _embedded_ transcriptions as positive or negative.  
 
-We then reclassify emotions from the RAVDESS dataset to develop our ground truths and align to our desired classes of positive, neutral, and negative. Then we evaluate.
+We then reclassify emotions from the RAVDESS dataset to develop our ground truths and align to our desired classes of positive, neutral, and negative. Then we evaluate the results of both models.
 
 ## 🔉 Approach #2: Mel-Frequency Cepstral Coefficients  
 Extract features from the audio sample using Mel-Frequency Cepstral coefficients and training a model to classify sentiment.
