@@ -109,7 +109,7 @@ six==1.17.0
 smmap==5.0.1
 soundfile==0.12.1
 soxr==0.5.0.post1
-streamlit @ file:///home/ephann/voice-sentiment-analysis/streamlit-1.40.1-py2.py3-none-any.whl
+streamlit
 streamlit-webrtc==0.47.9
 sympy==1.13.1
 tenacity==9.0.0
