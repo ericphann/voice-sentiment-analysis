@@ -30,6 +30,9 @@ The model is available on Hugging Face: [RAVDESS MFCC Sentiment Analysis](ericph
 ## ✨ Approach #3: Whisper by OpenAI  
 Transcribe the audio files into text using Whisper and running it through transcription models from approach #1.
 
-## Evaluation  
+## 📊 Evaluation  
+__Approach #1__: ~50% accuracy in positive/negative binary classification  
+__Approach #2__: ~78% accuracy in positive/neutral/negative multiclassification  
 
-## Conclusion
+## ✔ Conclusion  
+Our experiment shows that, when using the RAVDESS dataset, simply running sentiment analysis on audio transcriptions is not sufficient. As seen in Approach #1, it is no better than guessing the sentiment of the transcription. However, using the audio file and extracting Mel-Frequency Cepstral Coefficients in Approach #2 yielded higher accuracy in classification across 3 classes. This supports the idea that audio files contain dimensions and signal that cannot be captured in simple raw text.
