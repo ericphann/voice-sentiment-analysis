@@ -27,9 +27,9 @@ After labelling the emotions from the RAVDESS dataset similar to approach #1 we 
 
 The model is available on Hugging Face: [RAVDESS MFCC Sentiment Analysis](ericphann/RAVDESS_MFCC_Sentiment_Analysis).
 
-## ✨ Approach #3: Whisper & ChatGPT by OpenAI  
-Using OpenAI's Whisper to transcribe text and prompt ChatGPT to classify sentiment.
-Transcribing the audio files into text and running the text through ChatGPT to classify whether the text is positive/negative/neutral.
+## ✨ Approach #3: Whisper by OpenAI  
+Using OpenAI's Whisper to transcribe the audio.
+Transcribing the audio files into text and running it through transcription models from approach #1.
 
 Link to Streamlit App: http://localhost:8501/
 
