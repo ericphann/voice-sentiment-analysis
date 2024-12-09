@@ -21,6 +21,7 @@ We then reclassify emotions from the RAVDESS dataset to develop our ground truth
 
 ## 🔉 Approach #2: Mel-Frequency Cepstral Coefficients  
 Extract features from audio samples using Mel-Frequency Cepstral coefficients and train a neural network to classify sentiment.  
+
 After labelling the emotions from the RAVDESS dataset similar to approach #1 we extract 12 MFCCs from each audio file. We then train a convolution neural net (CNN) using the MFCC feature to predict whether the audio file is positive, neutral, or negative.   
 
 The model is available on Hugging Face: [RAVDESS MFCC Sentiment Analysis](ericphann/RAVDESS_MFCC_Sentiment_Analysis).
