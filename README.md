@@ -4,8 +4,9 @@
 Experiment analyzing various approaches to voice sentiment analysis. We will be using the [RAVDESS dataset](https://zenodo.org/records/1188976) to test our approaches, which is also available on [Kaggle](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio). The goal is to wrap these three approaches in a Streamlit app where users can provide live audio inputs.  
 
 ## ✨ Getting Started  
-See our [Streamlit App](https://dsba6156-voice-sentiment-analysis.streamlit.app/) and [Final Presentation]() to interact with our project and see a live-demo, respectively.  
+See our [Streamlit App](https://dsba6156-voice-sentiment-analysis.streamlit.app/) and [Final Presentation](https://docs.google.com/presentation/d/18L64Poe5cV0n1BEYlrE9AyrDcyeh2xB7CktCSxRDHHg/edit?usp=sharing) to interact with our project.
 If you'd like to learn a bit more about each of the approaches, then we recommend walking through each of the provided notebooks.  
+If you'd like to run locally, feel free to clone the repo and `pip install -r requirements.txt` for dependencies. Then `streamlit run demo_app.py`  
 _Note: there is a [small bug](https://github.com/streamlit/streamlit/issues/9799) with reproducing the input audio on Firefox. If using Firefox, please install streamlit using the .whl provided._  
 
 ## 📝 Approach #1: Transcription Sentiment Analysis
