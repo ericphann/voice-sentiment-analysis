@@ -6,7 +6,7 @@ Experiment analyzing various approaches to voice sentiment analysis. We will be 
 ## ✨ Getting Started  
 See our [Streamlit App]() and [Final Presentation]() to interact with our project and see a live-demo, respectively.  
 If you'd like to learn a bit more about each of the approaches, then we recommend walking through each of the provided notebooks.  
-_Note: there is a [small bug](https://github.com/streamlit/streamlit/issues/9799) with reproducing the input audio on Firefox._  
+_Note: there is a [small bug](https://github.com/streamlit/streamlit/issues/9799) with reproducing the input audio on Firefox. If using Firefox, please install streamlit using the .whl provided._  
 
 ## 📝 Approach #1: Transcription Sentiment Analysis
 Transcribing audio samples to raw text and running it through sentiment analysis model. Additionally, embedding the raw text and then running sentiment analysis on the embeddings.
