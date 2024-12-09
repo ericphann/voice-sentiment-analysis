@@ -29,7 +29,7 @@ After labelling the emotions from the RAVDESS dataset similar to approach #1 we 
 The model is available on Hugging Face: [RAVDESS MFCC Sentiment Analysis](ericphann/RAVDESS_MFCC_Sentiment_Analysis).
 
 ## ✨ Approach #3: Whisper by OpenAI  
-Transcribe the audio files into text using Whisper and running it through transcription models from approach #1.
+Transcribe the audio files into text using Whisper and running it through text-based sentiment analysis models from approach #1.
 
 ## 📊 Evaluation  
 __Approach #1__: ~50% accuracy in positive/negative binary classification  
