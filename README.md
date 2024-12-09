@@ -20,7 +20,7 @@ We use the [DistilBERT base uncased finetuned SST-2](https://huggingface.co/dist
 We then reclassify emotions from the RAVDESS dataset to develop our ground truths and align to our desired classes of positive, neutral, and negative. Then we evaluate the results of both models.
 
 ## 🔉 Approach #2: Mel-Frequency Cepstral Coefficients  
-Extract features from audio samples using Mel-Frequency Cepstral coefficients and train a neural network to classify sentiment.  
+Extract features from audio samples using Mel-Frequency Cepstral coefficients and train a neural network to classify sentiment as either positive, neutral, or negative.  
 
 After labelling the emotions from the RAVDESS dataset similar to approach #1 we extract 12 MFCCs from each audio file. We then train a convolution neural net (CNN) using the MFCC feature to predict whether the audio file is positive, neutral, or negative.   
 
